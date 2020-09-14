@@ -1,0 +1,56 @@
+form- hace formulario                                    <form></form>
+
+input- campos o boton <input type="..
+"text"=texto
+"radio"=se puede elegir una opcion
+"checkbox"=se puede elegir una, varias o ninguna opciones
+"submit"=boton de enviar  <input type="submit" value="Submit"> 
+"button"=solo boton cliqueable> 
+"action"= pag a donde te dirige el submit 
+<form action="/action_page.php" target="_blanc"(nueva pestaña o ventana)
+                                target="_self" (misma ventana)
+                                target="_parent"
+                                target="_top"
+                                target="framename"> 
+(el valor por defecto es _self)
+
+</input>
+
+label- titulo para campos    <label for="fname">First name:</label><br>
+                                (sin el atributo fname no se mostraria)
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+                     (id=identificador para volver a llamar a esa etiqueta)
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form>
+
+method="get" (son datos que viajan por el url)
+method="post"(son datos que viajan al cuerpo del pedido http/
+cannot be bookmarked)
+
+<datalist> El elemento datalist contiene un conjunto de elementos<option> 
+que representan posibles opciones para el valor de otros elementos del formulario.
+
+<textarea> EL elemento textarea representa un campo multi-línea de edición 
+de texto plano.
+
+<button> El elemento  button representa un botón clickeable.
+
+<optgroup> El elemento optgroup crea un grupo de opciones dentro de un 
+elemento <select> .
+
+<option> El elemento option es usado para crear un control de opción que representa un ítem dentro de alguno de los elementos <select>, <optgroup> o <datalist> .
+
+tablas <table>
+       <th>-encabezado
+       <tr>-fila
+       <td>-datos columna
+<table>
+<tr><th><th><th>
+<tr><td><td><td>
+<tr><td><td><td>
+<tr><td><td><td>
